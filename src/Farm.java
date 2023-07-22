@@ -58,11 +58,11 @@ public class Farm {
     @Override
     public String toString() {
         return "Farm{" +
-                "addres='" + addres + '\'' +
-                ", ownerName='" + ownerName + '\'' +
-                ", cows=" + Arrays.toString(cows) +'\''+
-                ", horses=" + Arrays.toString(horses) +'\''+
-                ", sheep=" + Arrays.toString(sheep) +'\''+
+                "addres='" + addres  +
+                "\n ownerName='" + ownerName  +
+                " \n cows=" + Arrays.toString(cows) +
+                "\n horses=" + Arrays.toString(horses) +
+                "\n sheep=" + Arrays.toString(sheep) +
                 '}';
     }
 }
